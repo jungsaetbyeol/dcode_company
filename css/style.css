@@ -168,3 +168,53 @@ section .inner h2 {
   font: 10px/1.4 "arial";
   color: #777;
 }
+/* 하단 */
+footer{
+  width: 100%;
+  background-color: #333;
+  padding: 100px 0;
+  border-top: 1px solid #bbb;
+}
+
+/* 하단 위 */
+.upper{
+  padding-bottom: 20px;
+  border-bottom: 1px solid #777;
+  
+}
+.upper::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+.upper h2 a{
+  float: left;
+  color: #666;
+  font: bold 24px/1 "arial";
+}
+.upper ul{
+  float: right;
+}
+.upper ul li{
+  float: left;
+  margin-left: 20px;
+}
+.upper ul li a{
+  color: #666;
+  font: bold 14px/1 "arial";
+}
+
+/* 하단 아래 */
+.lower{
+  
+  padding-top: 20px;
+}
+.lower address{
+  font: 12px/1.3 "arial";
+  color: #777;
+  margin-bottom: 20px;
+}
+.lower p{
+  font: 12px/1 "arial";
+  color: #777;
+}
